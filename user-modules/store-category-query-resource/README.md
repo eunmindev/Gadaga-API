@@ -1,0 +1,2 @@
+# Store Category Query Resource
+

@@ -1,0 +1,2 @@
+# Store Query Resource
+

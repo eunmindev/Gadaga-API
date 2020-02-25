@@ -21,6 +21,15 @@
   * [Find Email API](user-modules/user-query-resource/find-email-api.md)
   * [Find Password API](user-modules/user-query-resource/find-password-api.md)
   * [Validation Check API](user-modules/user-query-resource/validation-check-api.md)
+* [Store Category Query Resource](user-modules/store-category-query-resource/README.md)
+  * [Get Store Category List API](user-modules/store-category-query-resource/get-store-category-list-api.md)
+* [Store Query Resource](user-modules/store-query-resource/README.md)
+  * [Get Store List By Location API](user-modules/store-query-resource/get-store-list-by-location-api.md)
+* [Untitled](user-modules/untitled-2.md)
+* [Untitled](user-modules/untitled-3.md)
+* [Untitled](user-modules/untitled-4.md)
+* [Untitled](user-modules/untitled-6.md)
+* [Untitled](user-modules/untitled-5.md)
 
 ## Owner APIS \(10020\) <a id="owner-apis"></a>
 
