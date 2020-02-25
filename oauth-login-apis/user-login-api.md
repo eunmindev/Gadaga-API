@@ -6,21 +6,15 @@ description: 'Gadaga, Social Users Login'
 
 {% api-method method="post" host="https://www.gadaga.io:10000" path="/api/v1/oauth/user" %}
 {% api-method-summary %}
-User Login API
+Get User Login
 {% endapi-method-summary %}
 
 {% api-method-description %}
-user login api
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-body-parameters %}
 {% api-method-parameter name="password" type="string" required=false %}
 use : gadaga
