@@ -19,6 +19,7 @@
   * [Get User API](user-modules/user-query-resource/get-user-api.md)
   * [Check Password API](user-modules/user-query-resource/check-password-api.md)
   * [Find Email API](user-modules/user-query-resource/find-email-api.md)
+  * [Find Password API](user-modules/user-query-resource/find-password-api.md)
 
 ## Owner APIS \(10020\) <a id="owner-apis"></a>
 
