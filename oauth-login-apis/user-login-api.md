@@ -4,7 +4,7 @@ description: 'Gadaga, Social Users Login'
 
 # User Login API
 
-{% api-method method="get" host="https://www.gadaga.io:10000" path="/api/v1/oauth/user" %}
+{% api-method method="post" host="https://www.gadaga.io:10000" path="/api/v1/oauth/user" %}
 {% api-method-summary %}
 User Login API
 {% endapi-method-summary %}
@@ -15,6 +15,12 @@ user login api
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="password" type="string" required=false %}
 use : gadaga
@@ -63,13 +69,43 @@ data class ResponseToken (
 {% endtabs %}
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=204 %}
 {% api-method-response-example-description %}
 
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=500 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
