@@ -25,6 +25,8 @@
   * [Get Store Category List API](user-modules/store-category-query-resource/get-store-category-list-api.md)
 * [Store Query Resource](user-modules/store-query-resource/README.md)
   * [Get Store List By Location API](user-modules/store-query-resource/get-store-list-by-location-api.md)
+  * [Get Store List By Route API](user-modules/store-query-resource/get-store-list-by-route-api.md)
+  * [Get Store](user-modules/store-query-resource/get-store.md)
 * [Untitled](user-modules/untitled-2.md)
 * [Untitled](user-modules/untitled-3.md)
 * [Untitled](user-modules/untitled-4.md)

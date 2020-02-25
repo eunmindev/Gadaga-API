@@ -1,26 +1,26 @@
-# Get Store List By Location API
+# Get Store List By Route API
 
-{% api-method method="get" host="https://www.gadaga.io:10010" path="/api/v1/stores" %}
+{% api-method method="get" host="https://www.gadaga.io:10010" path="/api/v1/stores/route" %}
 {% api-method-summary %}
-Get Stores By Location
+Get Stores By Route
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to get free cakes.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="coordinates" type="object" required=true %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="routeCoordinates" type="string" required=true %}
+Type: List  
 include latitude: Double, longitude: Double
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="distance" type="number" required=true %}
-double  
-distance is kilometer
+Type: Double Value: kilometer
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -86,6 +86,7 @@ data class ResponseStoreReview(
         val imageUrls: List<String>?,
         val repliedReviewId: String
 )
+
 data class ResponseStoreInfo(
         val photoUrls: List<String>?,
         val address: String,
